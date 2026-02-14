@@ -1,80 +1,85 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Cometti Orthodontics",
+  "domain": "comettiorthodontics.com",
+  "email": "info@comettiorthodontics.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "(307) 257-8029",
+    "href": "tel:+13072578029",
+    "aria": "3 0 7, 2 5 7, 8 0 2 9"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "Gillette (Main Office)",
       "address": {
-        "street": "9650 Main Street",
+        "street": "2670 Oakcrest Drive",
         "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "city_state": "Gillette, WY 82718",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "-105.5309333",
+          "latitude": "44.2700084"
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "(307) 257-8029",
+        "href": "tel:+13072578029"
       },
-      "email": "info@mandtortho.com",
+      "email": "info@comettiorthodontics.com",
       "hours": [
         {
           "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
+          "time": "8:00 AM - 5:00 PM"
         },
         {
           "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
+          "time": "8:00 AM - 5:00 PM"
         },
         {
           "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
+          "time": "8:00 AM - 5:00 PM"
         },
         {
           "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
+          "time": "8:00 AM - 5:00 PM"
         },
         {
           "day": "Friday",
-          "time": "8:00 am \t11:30 am"
+          "time": "8:00 AM - 3:00 PM"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
+        "href": "https://www.google.com/maps/search/?api=1&query=2670+Oakcrest+Drive,+Gillette,+WY+82718",
         "label": "Get Directions"
       },
       "special_note": ""
     },
     {
-      "title": "Tonawanda Office",
+      "title": "Buffalo (Satellite)",
       "address": {
-        "street": "1077 Delaware Rd",
+        "street": "620 S Main St STE A",
         "suite": "",
-        "city_state": "Tonawanda, NY 14223",
+        "city_state": "Buffalo, WY 82834",
         "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
+          "longitude": "",
+          "latitude": ""
         }
       },
       "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
+        "number": "(307) 257-8029",
+        "href": "tel:+13072578029"
       },
-      "email": "info@mandtortho.com",
-      "hours": [],
+      "email": "info@comettiorthodontics.com",
+      "hours": [
+        {
+          "day": "By Appointment / Monthly Schedule",
+          "time": "Contact main office"
+        }
+      ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
+        "href": "https://www.google.com/maps/search/?api=1&query=620+S+Main+St+STE+A,+Buffalo,+WY+82834",
         "label": "Get Directions"
       },
-      "special_note": ""
+      "special_note": "Satellite location served on a monthly schedule — please call the Gillette office to confirm dates and availability."
     }
   ],
   "typography": [
@@ -94,28 +99,28 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
+        "icon": "tooth-two-v2",
+        "text": "2670 Oakcrest Drive, Gillette, WY 82718",
+        "href": "https://www.google.com/maps/search/?api=1&query=2670+Oakcrest+Drive,+Gillette,+WY+82718",
+        "label": "View 2670 Oakcrest Drive, Gillette, WY 82718 on google maps",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "text": "(307) 257-8029",
+        "href": "tel:+13072578029",
+        "label": "Call 3 0 7. 2 5 7. 8 0 2 9.",
         "new_window": false
       }
     ],
     "announcement": {
       "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "label": "Open COVID 19 update modal.",
+      "text": "COVID-19 update: our team follows current safety guidance to protect patients and staff. Call us if you have questions about your appointment.",
+      "mobile_text": "COVID-19 Update",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "COVID-19 Update",
+        "text": "We continue to follow recommended infection control practices so you can receive care safely. If you have symptoms or recent exposure, please call ahead and we will help reschedule or provide guidance."
       }
     }
   },
@@ -148,22 +153,17 @@
     "href": ""
   },
   "footer": {
-    "social_media": [
-      {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
-        "icon": "youtube"
-      }
-    ],
+    "social_media": [],
     "add_border": false
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
-    "text": "",
+    "title": "Welcome to Cometti Orthodontics",
+    "text": "Cometti Orthodontics is dedicated to creating healthy, beautiful smiles for every age. Call to schedule your first visit or request an appointment online.",
     "image": {
-      "src": "",
+      "src": "https://comettiorthodontics.com/wp-content/uploads/Cometti-Full-Color-Logo-Horizontal-1200x288-f7ee252.png",
       "webp": "",
-      "alt": "",
+      "alt": "Cometti Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
